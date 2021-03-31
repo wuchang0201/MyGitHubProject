@@ -19,19 +19,23 @@ func main() {
 
 	// 定义一个map[string]int 进行统计字符
 	var map1 =make(map[string]int)
+	
+	//查找每个单词出现的次数
+	for _, v := range strings.Fields(str){
+	}
 
 	for _, w := range string(content) { // 遍历字符串
         //通过unicode.IsLetter判断是否是字符
 		if unicode.IsLetter(w){
 
 			//在map中查找，存在，计数加一，不存在，证明刚轮询到一次，计数等于1
-			v,ok:= map1[string(w)]
-            if ok{
+		   v,ok:= map1[string(w)]
+                   if ok {
 
-				map1[string(w)] = v+1
-			}else {
+			     map1[string(w)] = v+1
+		   }else {
 
-				map1[string(w)] = 1
+		           map1[string(w)] = 1
 			}
 		}
 
