@@ -16,6 +16,7 @@ func main(){
 	defer file.Close()
 	// 使用Read方法读取数据
 	var tmp = make([]byte, 10)
+	//循环读取文件，文件读完输出
 	for{
 		n, err := file.Read(tmp)
 		if err == io.EOF {
