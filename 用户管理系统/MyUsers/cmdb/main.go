@@ -6,6 +6,7 @@ import (
 	"cmdb/utils"
 	"fmt"
 	"strconv"
+	//"github.com/howeyc/gopass"
 )
 
 func main() {
@@ -15,7 +16,7 @@ func main() {
 		1、添加用户  2、删除用户
 		3、查询用户  4、修改用户
 	*/
-	fmt.Println("------欢迎进入用户管理系统-----，请输入用户密码：")
+	fmt.Println("------欢迎进入用户管理系统-----")
 	ckpassword := handles.CheckPassword()
 	if ckpassword == false {
 

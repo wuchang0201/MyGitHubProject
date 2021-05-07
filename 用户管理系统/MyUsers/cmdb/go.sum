@@ -1,3 +1,5 @@
+github.com/howeyc/gopass v0.0.0-20190910152052-7cb4b85ec19c h1:aY2hhxLhjEAbfXOx2nRJxCXezC6CO2V/yN+OCr1srtk=
+github.com/howeyc/gopass v0.0.0-20190910152052-7cb4b85ec19c/go.mod h1:lADxMC39cJJqL93Duh1xhAs4I2Zs8mKS89XWXFGp9cs=
 github.com/princebot/getpass v0.0.0-20170602015525-cdc1f6b9a9e8 h1:xrF/m1IltaNGDoSwfXPz99gP+jPP4HtbwhHRlX7SSMI=
 github.com/princebot/getpass v0.0.0-20170602015525-cdc1f6b9a9e8/go.mod h1:TRTg+2Y18u8kNbtOCkvXFZphFnCKn4PGSGl6TLRyzMs=
 golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 h1:It14KIkyBFYkHkwZ7k45minvA9aorojkyjGk9KJ5B/w=
